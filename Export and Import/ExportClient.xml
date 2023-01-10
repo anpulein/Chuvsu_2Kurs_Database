@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2022-12-25T23:42:26">
+<Client>
+<Код_клиента>12</Код_клиента>
+<surname>Дмитрий</surname>
+<first_name>Галкин</first_name>
+<last_name>Сергеевич</last_name>
+<phone>9053473417</phone>
+<address>г.Чебоксары, Эгерский б-р д.49, кв.234</address>
+<number_passport>325435</number_passport>
+<series_passport>4354</series_passport>
+<address_passport>г.Чебоксары, Эгерский б-р д.49, кв.234</address_passport>
+<inn>324354654676</inn>
+<bank_book>34534565776</bank_book>
+</Client>
+<Client>
+<Код_клиента>13</Код_клиента>
+<surname>Алексей</surname>
+<first_name>Ванюлин</first_name>
+<last_name>Владимирович</last_name>
+<phone>9837459359</phone>
+<address>г.Чебоксары, Москвский пр-т, д.34, кв.232</address>
+<number_passport>324354</number_passport>
+<series_passport>3453</series_passport>
+<address_passport>г.Чебоксары, Москвский пр-т, д.34, кв.232</address_passport>
+<inn>324523452345</inn>
+<bank_book>45634765757</bank_book>
+</Client>
+<Client>
+<Код_клиента>14</Код_клиента>
+<surname>Наталья</surname>
+<first_name>Григорьева</first_name>
+<last_name>Алексеевна</last_name>
+<phone>5469985685</phone>
+<address>г.Казань, Васильевский пр-т, д.45, кв.12</address>
+<number_passport>345353</number_passport>
+<series_passport>3455</series_passport>
+<address_passport>г.Казань, Васильевский пр-т, д.45, кв.12</address_passport>
+<inn>345345656556</inn>
+<bank_book>79879787685</bank_book>
+</Client>
+<Client>
+<Код_клиента>15</Код_клиента>
+<surname>Юлия</surname>
+<first_name>Иванова</first_name>
+<last_name>Евгеньевна</last_name>
+<phone>6483568346</phone>
+<address>Хузангая, д.25, кв.125</address>
+<number_passport>324234</number_passport>
+<series_passport>2342</series_passport>
+<address_passport>Хузангая, д.25, кв.125</address_passport>
+<inn>345536358643</inn>
+<bank_book>34534543543</bank_book>
+</Client>
+<Client>
+<Код_клиента>17</Код_клиента>
+<surname>Дмитрий</surname>
+<first_name>Тарухин</first_name>
+<last_name>Ванилович</last_name>
+<phone>9504767456</phone>
+<address>г.Чебоксары</address>
+<number_passport>345345</number_passport>
+<series_passport>4353</series_passport>
+<address_passport>г.Новочебоксаркск</address_passport>
+<inn>345345435435</inn>
+<bank_book>34535435436</bank_book>
+</Client>
+<Client>
+<Код_клиента>18</Код_клиента>
+<surname>Иванов</surname>
+<first_name>Иван</first_name>
+<last_name>Иванович</last_name>
+<phone>5467878768</phone>
+<address>г.Чебоксары</address>
+<number_passport>546546</number_passport>
+<series_passport>5646</series_passport>
+<address_passport>г.Новочебоксаркск</address_passport>
+<inn>546776577898</inn>
+<bank_book>54654654645</bank_book>
+</Client>
+<Client>
+<Код_клиента>35</Код_клиента>
+<surname>Дмитриев</surname>
+<first_name>Дмитрий</first_name>
+<last_name>Дмитриевич</last_name>
+<phone>3244354354</phone>
+<address>г.Чебоксары</address>
+<number_passport>454353</number_passport>
+<series_passport>3454</series_passport>
+<address_passport>г.Новочебоксаркск</address_passport>
+<inn>435345453454</inn>
+<bank_book>34534543534</bank_book>
+</Client>
+<Client>
+<Код_клиента>50</Код_клиента>
+<surname>Дмитрий</surname>
+<first_name>Галкин</first_name>
+<last_name>Сергеевич</last_name>
+<phone>3243243242</phone>
+<address>г. Чебоксары</address>
+<number_passport>324324</number_passport>
+<series_passport>3243</series_passport>
+<address_passport>г. Новочебоксаркс</address_passport>
+<inn>454354353455</inn>
+<bank_book>43543543543</bank_book>
+</Client>
+</dataroot>

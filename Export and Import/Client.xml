@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="Client.xsd" generated="2022-12-25T23:40:33">
+<Client>
+<surname>Дмитрий</surname>
+<first_name>Ванилин</first_name>
+<last_name>Сергеевич</last_name>
+<phone>9053473428</phone>
+<address>г.Чебоксары, Эгерский б-р д.49, кв.234</address>
+<number_passport>323435</number_passport>
+<series_passport>4334</series_passport>
+<address_passport>г.Чебоксары, Эгерский б-р д.49, кв.234</address_passport>
+<inn>324354652376</inn>
+<bank_book>34894565776</bank_book>
+</Client>
+</dataroot>

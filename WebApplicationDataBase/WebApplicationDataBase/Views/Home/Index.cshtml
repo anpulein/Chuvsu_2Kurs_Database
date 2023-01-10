@@ -1,0 +1,96 @@
+﻿@model List<Client>
+
+@{
+    ViewData["Title"] = "Home Page";
+    int count = 0;
+}
+
+<div class="text-center">
+    <h1 class="display-4">Добро пожаловать!</h1>
+    <form>
+        <div class="form-group">
+            <div class="container">
+                <div class="row">
+                    @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+                    {
+                        <div class="col-10">
+                            <input name="FullNameSearch" type="text" class="form-control" aria-describedby="emailHelp" placeholder="Введите ФИО клиента">
+                        </div>
+                        <div class="col-1 bt-search">
+                            <button type="submit" class="btn btn-primary" name="search"><ion-icon name="search-outline"></ion-icon></button>
+                        </div>
+                    }
+                    <div class="col-1 bt-update">
+                        @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+                        {
+                            <button type="submit" class="btn btn-primary"><ion-icon name="refresh-outline"></ion-icon></button>
+                        }
+                    </div>
+                    <div class="col-auto">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalAddClient"><ion-icon name="add-circle-outline"></ion-icon></button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-10">
+                        <small id="information" class="form-text text-muted">Напишите ФИО для поиск по таблице</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+<div>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Код клиента</th>
+            <th scope="col">Фамилия</th>
+            <th scope="col">Имя</th>
+            <th scope="col">Отчество</th>
+            <th scope="col">Номер телефона</th>
+            <th scope="col">Адрес проживания</th>
+            <th scope="col">Номер паспорта</th>
+            <th scope="col">Серия паспорта</th>
+            <th scope="col">Адрес регистрации</th>
+            <th scope="col">ИНН</th>
+            <th scope="col">Лицевой счет</th>
+            <th scope="col">Навигация</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var client in Model)
+        {   
+            <tr>
+                @using (Html.BeginForm("Index", "Home", FormMethod.Post))
+                {
+                    <input style="display: none" name="IdClient" value="@client.IdClient.ToString()"/>
+                    <th scope="row">@((++count).ToString())</th>
+                    <td>@client.IdClient.ToString()</td>
+                    <td>@client.FirstName.ToString()</td>
+                    <td>@client.Surname.ToString()</td>
+                    <td>@client.LastName.ToString()</td>
+                    <td>@client.Phone.ToString()</td>
+                    <td>@client.Address.ToString()</td>
+                    <td>@client.NumberPassport.ToString()</td>
+                    <td>@client.SeriesPassport.ToString()</td>
+                    <td>@client.AddressPassport.ToString()</td>
+                    <td>@client.Inn.ToString()</td>
+                    <td>@client.BankBook.ToString()</td>
+                        <td>
+                            <div class="row">
+                                <div class="col-1 bt-nav">
+                                    <button type="submit" class="btn btn-secondary btn-sm" name="Operations" value="del"><ion-icon name="close-circle-outline"></ion-icon></button>
+                                </div>
+                                @* <div class="col-1"> *@
+                                @*     $1$ <button type="submit" class="btn btn-secondary btn-sm"><ion-icon name="create-outline"></ion-icon></button> #1# *@
+                                @* </div> *@
+                            </div>
+                        </td>
+                }
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>

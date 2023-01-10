@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" generated="2022-12-12T13:26:19">
+<Order>
+<Код_заказа>9</Код_заказа>
+<date_start>2022-06-01T00:00:00</date_start>
+<address_delivery>г.Казань, Троешвский пр-к, д.56, кв.745</address_delivery>
+<comment>Заказ дошел в целостности</comment>
+<price>15000</price>
+<payment_method>2</payment_method>
+<order_list>6</order_list>
+<operator>11</operator>
+<transport_company>7</transport_company>
+<client>12</client>
+<isAccepted>1</isAccepted>
+</Order>
+<Order>
+<Код_заказа>12</Код_заказа>
+<date_start>2022-09-26T00:00:00</date_start>
+<address_delivery>г. Чебоксары</address_delivery>
+<comment>Ура, заказала)</comment>
+<price>17000</price>
+<payment_method>3</payment_method>
+<order_list>8</order_list>
+<operator>8</operator>
+<transport_company>9</transport_company>
+<client>15</client>
+<isAccepted>1</isAccepted>
+</Order>
+<Order>
+<Код_заказа>17</Код_заказа>
+<date_start>2022-09-23T00:00:00</date_start>
+<address_delivery>г. Чебоксары, Эгерский б-р</address_delivery>
+<comment>Ура</comment>
+<price>13456</price>
+<payment_method>2</payment_method>
+<order_list>10</order_list>
+<operator>8</operator>
+<transport_company>8</transport_company>
+<client>13</client>
+<isAccepted>0</isAccepted>
+</Order>
+<Order>
+<Код_заказа>18</Код_заказа>
+<date_start>2022-12-12T00:00:00</date_start>
+<address_delivery>г. Чебоксары</address_delivery>
+<comment>Ура</comment>
+<price>13000</price>
+<payment_method>2</payment_method>
+<order_list>7</order_list>
+<operator>10</operator>
+<transport_company>8</transport_company>
+<client>13</client>
+<isAccepted>0</isAccepted>
+</Order>
+<Order>
+<Код_заказа>19</Код_заказа>
+<date_start>2022-12-12T00:00:00</date_start>
+<address_delivery>г. Чебоксары</address_delivery>
+<comment>Ура</comment>
+<price>13000</price>
+<payment_method>2</payment_method>
+<order_list>7</order_list>
+<operator>11</operator>
+<transport_company>8</transport_company>
+<client>13</client>
+<isAccepted>0</isAccepted>
+</Order>
+<Order>
+<Код_заказа>20</Код_заказа>
+<date_start>2022-12-12T00:00:00</date_start>
+<address_delivery>г. Чебоксары, Тр</address_delivery>
+<comment>Ура</comment>
+<price>20000</price>
+<payment_method>2</payment_method>
+<order_list>7</order_list>
+<operator>11</operator>
+<transport_company>9</transport_company>
+<client>15</client>
+<isAccepted>0</isAccepted>
+</Order>
+<Order>
+<Код_заказа>21</Код_заказа>
+<date_start>2022-12-12T00:00:00</date_start>
+<address_delivery>г. Чебоксары, Тр</address_delivery>
+<comment>Ура</comment>
+<price>20000</price>
+<payment_method>3</payment_method>
+<order_list>7</order_list>
+<operator>9</operator>
+<transport_company>9</transport_company>
+<client>15</client>
+<isAccepted>1</isAccepted>
+</Order>
+</dataroot>
